@@ -1,0 +1,81 @@
+model_a,model_b,comparison,policy,metric,difference,ci_lower,ci_upper,valid_replicates,total_replicates
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,average_precision,0.2614680211533127,0.1343347963646719,0.42118367600232054,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,roc_auc,0.04744582853553858,0.018608250058438427,0.08224046326945919,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,accuracy,0.06372045220966083,0.045220966084275505,0.08316435440676508,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,balanced_accuracy,0.07989636763320429,0.011103819704565946,0.15584432854379657,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,precision,0.37898248540450374,0.27570244821092277,0.49405340797646286,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,sensitivity,0.09756097560975618,-0.038461538461538436,0.25,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,specificity,0.0622317596566524,0.044132290473048855,0.0818983182589033,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,f1,0.3383333333333333,0.24064291662766032,0.450678806667079,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,healthy_false_positive_rate,-0.0765661252900232,-0.1078712420285454,-0.0461156659657286,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,default_0.5,other_condition_false_positive_rate,-0.0499001996007984,-0.06996426250812215,-0.031126592068057145,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,average_precision,0.2614680211533127,0.1343347963646719,0.42118367600232054,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,roc_auc,0.04744582853553858,0.018608250058438427,0.08224046326945919,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,accuracy,0.1284686536485098,0.10439966861788064,0.1530527712561816,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,balanced_accuracy,0.07871872710143413,0.0230026685547782,0.13554669606046718,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,precision,0.5312055054579972,0.42766060999351074,0.6433770108977684,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,sensitivity,0.024390243902439046,-0.08695652173913038,0.1333783783783782,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,specificity,0.1330472103004292,0.10775862068965514,0.15789752748786062,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,f1,0.47136150234741786,0.38364718772320344,0.5621566489412846,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,healthy_false_positive_rate,-0.16705336426914152,-0.2071507659007659,-0.12587226206629193,2000,2000
+resnet18,custom_cnn,ResNet18 minus Custom CNN,sensitivity_target_0.90,other_condition_false_positive_rate,-0.10379241516966069,-0.1326945020746888,-0.07597535934291581,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,average_precision,0.254360712252913,0.1311705648493096,0.40779981191935205,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,roc_auc,0.04689626295404592,0.01852070034794102,0.08060540076080659,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,accuracy,0.058581706063720485,0.04085801838610825,0.07700403185811568,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,balanced_accuracy,0.07721396419972781,0.02390884792117374,0.1367965357939957,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,precision,0.32140672782874613,0.22686427871952455,0.42960176935467614,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,sensitivity,0.09756097560975618,0.0,0.2105661881977669,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,specificity,0.056866952789699554,0.03887584138899957,0.0755939524838013,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,f1,0.29914191419141917,0.20971960848064686,0.39437937250960114,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,healthy_false_positive_rate,-0.0765661252900232,-0.10689082450808535,-0.04534890879428695,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,default_0.5,other_condition_false_positive_rate,-0.03992015968063872,-0.06073013415892673,-0.0211853208872326,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,average_precision,0.254360712252913,0.1311705648493096,0.40779981191935205,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,roc_auc,0.04689626295404592,0.01852070034794102,0.08060540076080659,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,accuracy,0.12127440904419329,0.09773662551440332,0.14564424057084607,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,balanced_accuracy,0.09828064482361565,0.046901134209902814,0.15157910730438717,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,precision,0.42984496124031,0.3320673786782941,0.5381170449044675,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,sensitivity,0.07317073170731714,-0.028571428571428473,0.17074912891986058,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,specificity,0.12339055793991416,0.09901798386715244,0.14766865549968544,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,f1,0.4238367498721703,0.34389037996218963,0.5065968277875634,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,healthy_false_positive_rate,-0.15777262180974477,-0.19626381598600265,-0.11725663716814161,2000,2000
+efficientnet_b0,custom_cnn,EfficientNet-B0 minus Custom CNN,sensitivity_target_0.90,other_condition_false_positive_rate,-0.093812375249501,-0.12195121951219513,-0.06637757727813703,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,average_precision,0.007107308900399678,-0.016814824300927456,0.03664317281610265,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,roc_auc,0.0005495655814926614,-0.0016579360167248381,0.0032889928460717857,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,accuracy,0.005138746145940343,-0.0020534408495497284,0.012383900928792494,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,balanced_accuracy,0.002682403433476477,-0.032665185895169806,0.037061896447757765,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,precision,0.05757575757575761,-0.017962962962962986,0.13720283395933033,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,sensitivity,0.0,-0.06976744186046513,0.06980897009966756,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,specificity,0.005364806866952843,-0.0010870454222179468,0.012780234655501087,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,f1,0.03919141914191415,-0.022640781349797762,0.10326215089657102,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,healthy_false_positive_rate,0.0,-0.011389521640091115,0.010756796731934054,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,default_0.5,other_condition_false_positive_rate,-0.00998003992015968,-0.019108584720682976,-0.002,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,average_precision,0.007107308900399678,-0.016814824300927456,0.03664317281610265,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,roc_auc,0.0005495655814926614,-0.0016579360167248381,0.0032889928460717857,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,accuracy,0.007194244604316502,0.0010224948875255907,0.014344262295081903,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,balanced_accuracy,-0.01956191772218152,-0.056722924284572956,0.005914297135706399,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,precision,0.10136054421768714,0.03708072942095493,0.178771719208211,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,sensitivity,-0.04878048780487809,-0.12195121951219512,0.0,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,specificity,0.00965665236051505,0.004232692372227279,0.016078033853582,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,f1,0.04752475247524757,-0.012868055580261545,0.11309613997114001,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,healthy_false_positive_rate,-0.009280742459396751,-0.01932367149758454,-0.0021976817042606584,2000,2000
+resnet18,efficientnet_b0,ResNet18 minus EfficientNet-B0,sensitivity_target_0.90,other_condition_false_positive_rate,-0.00998003992015968,-0.019108584720682976,-0.002,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,average_precision,0.009646202241129664,-0.01036190441367581,0.031609506358238476,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,roc_auc,-0.0019889040092119226,-0.016333941865628983,0.007768935979332384,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,accuracy,0.007194244604316613,0.0,0.01441849724484278,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,balanced_accuracy,-0.01956191772218152,-0.05671889542768759,0.006452134878379692,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,precision,0.0970491803278688,0.025621890547263628,0.1757155918793849,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,sensitivity,-0.04878048780487809,-0.12195121951219512,0.0,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,specificity,0.00965665236051505,0.0031813361611877644,0.017022183913260464,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,f1,0.04611075199310488,-0.016943840904924144,0.11111336580086584,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,healthy_false_positive_rate,-0.0069605568445475635,-0.017937219730941704,0.002398515969832826,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,default_0.5,other_condition_false_positive_rate,-0.011976047904191616,-0.021916012420904612,-0.003883306991796493,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,average_precision,0.009646202241129664,-0.01036190441367581,0.031609506358238476,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,roc_auc,-0.0019889040092119226,-0.016333941865628983,0.007768935979332384,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,accuracy,0.0010277492291880241,-0.004136611705965606,0.007201646090534974,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,balanced_accuracy,0.02385376321574384,-0.0016009393958418244,0.06061188446489179,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,precision,-0.0013986013986013734,-0.06408686959328085,0.06666927899686517,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,sensitivity,0.04878048780487809,0.0,0.12195121951219512,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,specificity,-0.0010729613733905241,-0.006410427807486715,0.004301075268817178,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,f1,0.017473118279569877,-0.03452536343769299,0.07672403761113428,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,healthy_false_positive_rate,0.0,-0.00709219858156028,0.006565272801596647,2000,2000
+ablation_mixed_matched,ablation_healthy_only,ResNet18: mixed_matched minus ResNet18: healthy_only,sensitivity_target_0.90,other_condition_false_positive_rate,0.001996007984031937,-0.006172839506172839,0.011029411764705881,2000,2000

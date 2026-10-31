@@ -1,0 +1,31 @@
+model_id,model,role,policy,threshold,group,images,patients,errors,sensitivity,false_positive_rate,tp,fn,fp,tn
+custom_cnn,Custom CNN,main,default_0.5,0.5,cataract,41,30,7,0.8292682926829268,,34,7,0,0
+custom_cnn,Custom CNN,main,default_0.5,0.5,healthy_negative,431,280,48,,0.11136890951276102,0,0,48,383
+custom_cnn,Custom CNN,main,default_0.5,0.5,other_condition_negative,501,318,27,,0.05389221556886228,0,0,27,474
+custom_cnn,Custom CNN,main,sensitivity_target_0.90,0.27163198590278625,cataract,41,30,6,0.8536585365853658,,35,6,0,0
+custom_cnn,Custom CNN,main,sensitivity_target_0.90,0.27163198590278625,healthy_negative,431,280,83,,0.1925754060324826,0,0,83,348
+custom_cnn,Custom CNN,main,sensitivity_target_0.90,0.27163198590278625,other_condition_negative,501,318,54,,0.10778443113772455,0,0,54,447
+resnet18,ResNet18,main,default_0.5,0.5,cataract,41,30,3,0.926829268292683,,38,3,0,0
+resnet18,ResNet18,main,default_0.5,0.5,healthy_negative,431,280,15,,0.03480278422273782,0,0,15,416
+resnet18,ResNet18,main,default_0.5,0.5,other_condition_negative,501,318,2,,0.003992015968063872,0,0,2,499
+resnet18,ResNet18,main,sensitivity_target_0.90,0.7552696466445923,cataract,41,30,5,0.8780487804878049,,36,5,0,0
+resnet18,ResNet18,main,sensitivity_target_0.90,0.7552696466445923,healthy_negative,431,280,11,,0.025522041763341066,0,0,11,420
+resnet18,ResNet18,main,sensitivity_target_0.90,0.7552696466445923,other_condition_negative,501,318,2,,0.003992015968063872,0,0,2,499
+efficientnet_b0,EfficientNet-B0,main,default_0.5,0.5,cataract,41,30,3,0.926829268292683,,38,3,0,0
+efficientnet_b0,EfficientNet-B0,main,default_0.5,0.5,healthy_negative,431,280,15,,0.03480278422273782,0,0,15,416
+efficientnet_b0,EfficientNet-B0,main,default_0.5,0.5,other_condition_negative,501,318,7,,0.013972055888223553,0,0,7,494
+efficientnet_b0,EfficientNet-B0,main,sensitivity_target_0.90,0.48825469613075256,cataract,41,30,3,0.926829268292683,,38,3,0,0
+efficientnet_b0,EfficientNet-B0,main,sensitivity_target_0.90,0.48825469613075256,healthy_negative,431,280,15,,0.03480278422273782,0,0,15,416
+efficientnet_b0,EfficientNet-B0,main,sensitivity_target_0.90,0.48825469613075256,other_condition_negative,501,318,7,,0.013972055888223553,0,0,7,494
+ablation_healthy_only,ResNet18: healthy_only,ablation,default_0.5,0.5,cataract,41,30,3,0.926829268292683,,38,3,0,0
+ablation_healthy_only,ResNet18: healthy_only,ablation,default_0.5,0.5,healthy_negative,431,280,14,,0.03248259860788863,0,0,14,417
+ablation_healthy_only,ResNet18: healthy_only,ablation,default_0.5,0.5,other_condition_negative,501,318,9,,0.017964071856287425,0,0,9,492
+ablation_healthy_only,ResNet18: healthy_only,ablation,sensitivity_target_0.90,0.8108105659484863,cataract,41,30,5,0.8780487804878049,,36,5,0,0
+ablation_healthy_only,ResNet18: healthy_only,ablation,sensitivity_target_0.90,0.8108105659484863,healthy_negative,431,280,12,,0.027842227378190254,0,0,12,419
+ablation_healthy_only,ResNet18: healthy_only,ablation,sensitivity_target_0.90,0.8108105659484863,other_condition_negative,501,318,4,,0.007984031936127744,0,0,4,497
+ablation_mixed_matched,ResNet18: mixed_matched,ablation,default_0.5,0.5,cataract,41,30,5,0.8780487804878049,,36,5,0,0
+ablation_mixed_matched,ResNet18: mixed_matched,ablation,default_0.5,0.5,healthy_negative,431,280,11,,0.025522041763341066,0,0,11,420
+ablation_mixed_matched,ResNet18: mixed_matched,ablation,default_0.5,0.5,other_condition_negative,501,318,3,,0.005988023952095809,0,0,3,498
+ablation_mixed_matched,ResNet18: mixed_matched,ablation,sensitivity_target_0.90,0.331373393535614,cataract,41,30,3,0.926829268292683,,38,3,0,0
+ablation_mixed_matched,ResNet18: mixed_matched,ablation,sensitivity_target_0.90,0.331373393535614,healthy_negative,431,280,12,,0.027842227378190254,0,0,12,419
+ablation_mixed_matched,ResNet18: mixed_matched,ablation,sensitivity_target_0.90,0.331373393535614,other_condition_negative,501,318,5,,0.00998003992015968,0,0,5,496
